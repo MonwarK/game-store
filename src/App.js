@@ -1,13 +1,7 @@
 import Homepage from "./pages/homepage.component";
+import XboxPage from "./pages/shop/shop.component"
 import { Route, Switch } from "react-router-dom";
-
-const XboxPage = () => {
-  return(
-    <div>
-      <h1>XBOX</h1>
-    </div>
-  )
-}
+import "./App.css"
 
 function App() {
   return (
