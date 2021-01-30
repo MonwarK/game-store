@@ -27,10 +27,9 @@ function App() {
               id: snapshot.id,
               ...snapshot.data()
             });
-          });
-
-          console.log(currentUser);
+          });          
         }
+        console.log(currentUser);
         setCurrentUser(userAuth)
       }
     );
